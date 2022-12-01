@@ -1,0 +1,120 @@
+.dashpad{
+    padding: 5px;
+}
+.dashcolor1{
+    height: 100px;
+    background: #00ffff;
+    color: white;
+    padding: 5px;
+}
+.dashcolor2{
+    height: 100px;
+    background: #009999;
+    color: white;
+    padding: 5px;
+}
+.dashcolor3{
+    height: 100px;
+    background: #1f1f14;
+    color: white;
+    padding: 5px;
+}
+.dashcolor4{
+    height: 100px;
+    background: #e60073;
+    color: white;
+    padding: 5px;
+}
+.dashcolor5{
+    height: 100px;
+    background: #ffa31a;
+    color: white;
+    padding: 5px;
+}
+.dashcolor6{
+    height: 100px;
+    background:  #00ff00;
+    color: white;
+    padding: 5px;
+}
+.dashcolor7{
+    height: 100px;
+    background: #ff0000;
+    color: white;
+    padding: 5px;
+}
+.dashcolor8{
+    height: 100px;
+    background: #8080ff;
+    color: white;
+    padding: 5px;
+}
+
+.dashcolor1 i{
+    margin: 30px;
+
+}
+.dashcolor2 i{
+    margin: 30px;
+    
+}
+.dashcolor3 i{
+    margin: 30px;
+}
+
+.dashcolor4 i{
+    margin: 30px;
+    
+}
+.dashcolor5 i{
+    margin: 30px;
+    
+}
+.dashcolor6 i{
+    margin: 30px;
+    
+}
+.dashcolor7 i{
+    margin: 30px;
+}
+.dashcolor8 i{
+    margin: 30px;
+    
+}
+.dashtext{
+    padding: 25px;
+    
+}
+.constyle{
+    background-color: white;
+}
+.heading{
+    padding: 20px;
+}
+.tabstyle{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: white;
+}
+th{
+    padding: 15px;
+}
+td{
+    padding: 15px;
+}
+tr:hover{
+    background-color: #d9d9d9;
+
+}
+tr:nth-child(odd){
+    background-color: #d9d9d9 ;
+}
+.reply{
+    border-style: dashed;   
+    border-radius: 30px;
+}
+
+

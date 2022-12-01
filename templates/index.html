@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deskport</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index2.css' %}" >
+</head>
+<body>
+    <!--   Header   -->
+
+    <header>
+        <a href="#" class="logo"><img src="{% static 'images/favicon.png' %}" alt="logo" width="140"></a>
+
+        <nav>
+            <ul>
+                <li><a  href="#project">Deskport</a></li>
+                <li><a  href="#company">Company</a></li>
+                <li><a href="{% url 'register' %}">Register</a></li>
+            </ul>
+        </nav>
+        <button><a href="{% url 'login' %}">Login</a></button>
+
+
+
+    </header>
+    <!-- end Header -->
+
+    <!--  Content  -->
+
+    <div class="content">
+        <div class="incontent">
+
+            <h1 id="project">Deskport(Automated Customer Support System) </h1>
+            <p>The main aim of this product is providing all functionality related to one software industry. It tracks all the information of the employee in all the department. We are going to develop all type of CRUD (create, read, update and delete) operations of the employee. This is role-based module where admin can perform each and every operation on data. And employee can submit the ticket token and can view the data, so access level restrictions also going to implement in this project.<br>Automated Customer Support Ticket Systems should retrieve exactly the information required to assist user as quickly and as easily as possible either for a lay user who knows little about the domain or for an advanced user who requires more specialist information. Automated customer support systems should also be easily maintainable as knowledge in domains where help is required often changes very rapidly, for example help for computer users. The aim of this study was to develop a help desk information retrieval mechanism suitable for a wide range of users and to provide a way of easily maintaining the system. </p>
+                <br>
+                <hr>
+                <br>
+            <h1 id="company">Worksbot Applications Private Limited</h1> <br>
+              <h3>About Company:</h3>
+                <p>Worksbot Applications is a best solutions and development company specializing in Artificial Intelligence (AI) & Machine Learning technologies. Worksbot was created to leverage technology to empower creative minds all over the world. </p> 
+                <br>
+                <hr>
+                <br>
+            <h1>Technologies:</h1>   
+            <p><b>Front-End:</b> HTML5, CSS3, Bootstrap, JavaScript</p>
+            <p><b>Back-End:</b> Python (Django/Flask)</p>
+            <p><b>Database:</b> Sqlite</p>
+            <p><b>Theme –</b> Fully -Featured Bootstrap 4/4.5 Admin & Dashboard Template</p>
+
+                <br>
+                <hr>
+                <br>
+            
+            
+
+
+
+        </div>
+
+
+    </div>
+    <!-- end Content -->
+
+    <!--  Footer -->
+    <div class="footer">
+
+        <p>Copyright &copy 2021 | Worksbot. All rights reserved.</p>
+    </div>
+
+
+    <!-- endFooter-->
+
+    
+    
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+#colo{
+    background-color:  #0066cc;
+}
+.submit{
+    width: 100%;
+}
+#mowidth
+{
+    width: 100%;
+}
+.quantity{
+    display: flex;
+    justify-content: center;
+}
+.constyle{
+    background-color: white;
+}
+
+.tabstyle{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: white;
+}
+th{
+    padding: 15px;
+}
+td{
+    padding: 15px;
+}
+tr:hover{
+    background-color: #d9d9d9;
+
+}
+tr:nth-child(odd){
+    background-color: #d9d9d9 ;
+}

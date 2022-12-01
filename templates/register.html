@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}" >
+</head>
+<body>
+    <a href="{% url 'index' %}">
+    <button type="submit">Back</button>
+    </a>
+
+    <div class="con">
+      
+    <form action="register" method="POST">
+        {% csrf_token %}
+        <h1>
+            Create New User
+        </h1> 
+    
+        <label>First Name</label>&nbsp;
+        <input type="text" name="first_name" placeholder="first_name"><br>
+        <label>Last Name</label>&nbsp;
+        <input type="text" name="last_name" placeholder="last_name"><br>
+        <label>User Name</label>&nbsp;
+        <input type="text" name="username" placeholder="User name"><br>
+        <label>Email-id</label>&nbsp;
+        <input type="email" name="email" placeholder="email"><br>
+        
+       
+        <label>Gender</label>&nbsp;
+        <input type="radio" name="gender" value="male"><label>Male</label>
+        <input type="radio" name="gender" value="female"><label>Female</label><br>
+        <label>Password</label>&nbsp;
+        <input type="password" name="password1" placeholder="Password"><br>
+        <label>Confirm Password</label>&nbsp;
+        <input type="password" name="password2" placeholder="Confirm Password"><br>
+        <button type="submit">Register</button>
+    </form> 
+  
+
+    <div>
+        {% for message in messages %}
+        <h3> {{message}} </h3>
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>

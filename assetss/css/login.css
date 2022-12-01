@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(255, 204, 226), rgb(255, 153, 197), rgb(255, 153, 197), rgb(255, 204, 226)   );
+
+}
+
+
+
+.con{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-weight:700;
+    text-align: center;
+}
+input{
+    width: 300px;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+input[type="radio"]{
+    width: 30px;
+}
+label{
+    font-weight: bold;
+}
+
+button[type="submit"]{
+    width: 200px;
+    background-color: #2351b4;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    margin: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+button[type="submit"]:hover{
+    background: rgb(71, 31, 179);
+}
+
+.con button[type="submit"]{
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    margin: 8px 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.con button[type="submit"]:hover{
+    background: rgb(255, 26, 117);
+}
+
+h3{
+    text-decoration: underline;
+}
